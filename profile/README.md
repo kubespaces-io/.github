@@ -1,16 +1,11 @@
-## Hi there 👋! 
+# KubeSpaces
 
-### We are Kubespaces, a Namespace-as-a-service dedicated to developers and platform engineers
+**Turn Kubernetes into Tenant as a Service.**
 
-Please head over to [kubespaces.io](https://kubespaces.io) for more information.
+KubeSpaces is the open control plane for virtual Kubernetes tenants: give every
+team an isolated cluster — own API server, CRDs and RBAC — on the Kubernetes you
+already run. Reduce cluster sprawl without falling back to unisolated namespaces.
 
-<!--
-
-**Here are some ideas to get you started:**
-
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+- **[kubespaces-io/kubespaces](https://github.com/kubespaces-io/kubespaces)** — the platform: API, operator, portal, spacectl, Helm chart
+- **[kubespaces.io](https://kubespaces.io)** — website
+- Everything Apache 2.0. Built on [vCluster](https://github.com/loft-sh/vcluster).
